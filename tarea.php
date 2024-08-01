@@ -21,4 +21,16 @@ $multiplicacion = $integerVar * $floatVar; // Multiplicación
 // Mostrar resultados de operaciones aritméticas usando echo
 echo "Resultado de la suma: " . $suma . "<br>";
 echo "Resultado de la multiplicación: " . $multiplicacion . "<br>";
+
+
+// Manipulación de Cadenas
+$cadena1 = "Hola";
+$cadena2 = "Mundo";
+
+// Concatenación de dos cadenas
+$cadenaConcatenada = $cadena1 . " " . $cadena2;
+
+// Obtener la longitud de la cadena concatenada
+$longitudCadena = strlen($cadenaConcatenada);
+
 ?>
