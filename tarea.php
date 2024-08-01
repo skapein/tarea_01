@@ -37,4 +37,11 @@ $longitudCadena = strlen($cadenaConcatenada);
 echo "Cadena concatenada: " . $cadenaConcatenada . "<br>";
 echo "Longitud de la cadena concatenada: " . $longitudCadena . "<br>";
 
+//  Condicionales
+if ($booleanVar) {
+    echo "La variable booleana es true.<br>";
+} else {
+    echo "La variable booleana es false.<br>";
+}
+
 ?>
