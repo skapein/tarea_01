@@ -1,5 +1,8 @@
 <?php
+// Declaración de variables
+$integerVar = 42;          
+$floatVar = 3.14;          
+$stringVar = "Hola Mundo"; 
+$booleanVar = true;        
+$arrayVar = array("manzana", "banana", "cereza"); // Variable de array
 
-
-
-$arreglo[1,2,3,4,5,6,7,8,9,0]
