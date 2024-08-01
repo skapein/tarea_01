@@ -44,4 +44,10 @@ if ($booleanVar) {
     echo "La variable booleana es false.<br>";
 }
 
+// Array
+$arrayNuevo = array("elemento1", "elemento2", "elemento3", "elemento4", "elemento5");
+
+// Mostrar un elemento específico del array utilizando su índice
+echo "Elemento específico del array: " . $arrayNuevo[2] . "<br>"; 
+
 ?>
