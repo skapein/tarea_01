@@ -18,7 +18,7 @@ echo "Variable de array: " . implode(", ", $arrayVar) . "<br>";
 $suma = $integerVar + $floatVar;       // Suma
 $multiplicacion = $integerVar * $floatVar; // Multiplicación
 
-// Mostrar resultados de operaciones aritméticas usando echo
+// Imprimir resultados de operaciones aritméticas usando echo
 echo "Resultado de la suma: " . $suma . "<br>";
 echo "Resultado de la multiplicación: " . $multiplicacion . "<br>";
 
@@ -32,5 +32,9 @@ $cadenaConcatenada = $cadena1 . " " . $cadena2;
 
 // Obtener la longitud de la cadena concatenada
 $longitudCadena = strlen($cadenaConcatenada);
+
+// Imprimir resultados de la manipulación de cadenas
+echo "Cadena concatenada: " . $cadenaConcatenada . "<br>";
+echo "Longitud de la cadena concatenada: " . $longitudCadena . "<br>";
 
 ?>
